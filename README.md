@@ -7,11 +7,8 @@ The original Author is Kim Eik
   I only edited it in order for it to work with MediaWiki Version >=1.35
 
 # Installation
-* Copy the code into a file called "SimpleEmbed.php" and place the file(s) in a directory called SimpleEmbed in your extensions/ folder.
-
-* Add the following code at the bottom of your LocalSettings.php:
 ```
-require_once "$IP/extensions/SimpleEmbed/SimpleEmbed.php";
+git clone git@github.com:Le-onardo/SimpleEmbed.git <path to mediawiki>/extensions/
 ```
 * Navigate to Special:Version on your wiki to verify that the extension is successfully installed.
 
